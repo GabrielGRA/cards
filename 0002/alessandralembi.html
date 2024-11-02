@@ -11,19 +11,16 @@
             box-sizing: border-box;
         }
         body {
-            font-family: Roboto Condensed;
-            background-color: #000000; /* Dark gray background */
-            color: #000000; /* Light gray text */
+            font-family: Arial, sans-serif;
+            background-color: #333; /* Dark gray background */
+            color: #ccc; /* Light gray text */
             padding: 20px;
         }
         .profile {
             width: 414px; /* Set width to 414px */
             max-height: 896px; /* Set max-height to 896px */
             margin: 0 auto;
-			background-image: url('pictures/background.jpg');
-			background-repeat: no-repeat;
-			position: relative;
-            background-color: #ffffff; /* Darker background */
+            background-color: #222; /* Darker background */
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
             border-radius: 8px;
@@ -57,7 +54,7 @@
         .social-buttons a {
             display: inline-block;
             text-decoration: none;
-            color: #ffffff;
+            color: #fff;
             background-color: #555; /* Dark gray button background */
             width: calc(100% - 20px); /* Adjust button width */
             max-width: 300px; /* Limit maximum button width */
@@ -67,7 +64,7 @@
             transition: background-color 0.3s ease;
         }
         .social-buttons a:hover {
-            background-color: #ff0000; /* Lighter gray on hover */
+            background-color: #777; /* Lighter gray on hover */
         }
 
         /* Media query for smaller screens */
@@ -76,15 +73,6 @@
                 width: 100%; /* Full width on screens up to 414px */
                 max-height: none; /* Remove max-height restriction */
             }
-        }
-		// <uniquifier>: Use a unique and descriptive class name
-        // <weight>: Use a value from 100 to 900
-
-        .roboto-condensed-<uniquifier> {
-            font-family: "Roboto Condensed", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: <weight>;
-            font-style: normal;
         }
     </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
